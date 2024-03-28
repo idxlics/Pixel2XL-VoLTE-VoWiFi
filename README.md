@@ -11,6 +11,13 @@ If not, send private message on XDA to [me](https://forum.xda-developers.com/m/v
 2. Flash in Magisk
 3. Reboot & enjoy 
 
+## Troubleshooting
+Try one or more of the following methods:
+- Toggle VoLTE/VoWiFi/Airplane mode
+- Reset APN settings to default
+- Remove unnecessary MBN files(e.g. those for carriers in another continent) in the module, remove the corresponding lines in oem_sw.txt, then repack the ZIP file and reinstall
+
+
 ## Features
 - Enables VoLTE
 - Enables VoWiFi
