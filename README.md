@@ -11,13 +11,6 @@ If not, send private message on XDA to [me](https://forum.xda-developers.com/m/v
 2. Flash in Magisk
 3. Reboot & enjoy 
 
-## Troubleshooting
-Try one or more of the following methods:
-- Toggle VoLTE/VoWiFi/Airplane mode
-- Reset APN settings to default
-- Remove unnecessary MBN files(e.g. those for carriers in another continent) in the module, remove the corresponding lines in oem_sw.txt, then repack the ZIP file and reinstall
-
-
 ## Features
 - Enables VoLTE
 - Enables VoWiFi
@@ -25,6 +18,12 @@ Try one or more of the following methods:
 
 ## Verified
 - Pixel 2 - LineageOS 20 - - Orange Poland - VoLTE & VoWiFi
+
+## Troubleshooting
+Try one or more of the following methods:
+- Toggle VoLTE/VoWiFi/Airplane mode
+- Reset APN settings to default
+- Remove unnecessary MBN files(e.g. those for carriers in another continent) in the module, remove the corresponding lines in oem_sw.txt, then repack the ZIP file and reinstall
 
 # Credits
 - Big thanks to [IonutGherman](https://forum.xda-developers.com/m/ionutgherman.6250062/) from XDA for providing intial MBNs from crDroid.
